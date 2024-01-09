@@ -1,11 +1,11 @@
 /*common shared style*/
-.banner{
+.banner .text6{
     font-family: 'Merriweather', serif;
 }
 
 /*banner style*/
 .banner{
-    padding: 233px;
+    padding: 33px;
    
 background-image: url('../resources/Banner\ Image.png');
 background-repeat: no-repeat;
@@ -30,9 +30,12 @@ font-size: 72px;
 font-weight: 900;
 }
 /*banner2 style*/
-.banner2 .banner4{
+.banner2 .banner4 .banner7{
     font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif;
+padding: 20px;
+background: #F00;
+margin-top: 0;
 }
 .text1{
     color: #F00;
@@ -55,12 +58,67 @@ font-size: 48px;
     width: 802.9px;
 height: 500px;
 flex-shrink: 0;
+margin: 10px 400px;
 }
 /*banner4 styles*/
+
+.banner4{
+    padding:30px;
+    width: 1320px;
+height: 382px;
+flex-shrink: 0;
+background-color: rgb(244, 216, 216);
+margin: 20px 150px;
+}
+
+
+.text4{
+    color: #F00;
+text-align: center;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.new{
+    color: #070211;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+}
 .button1{
     color: #FFF;
 text-align: center;
 font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
+border-radius: 8px;
+background: #F00;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+/*banner7 styles*/
+.banner7{
+    padding: 33px;
+    width: 1600px;
+height: 900px;
+background-color: #FFF;
+margin-top: 30px;
+}
+.text5{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.text6{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.text7{
+    color: rgba(7, 2, 17, 0.60);
+width: 896px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
 }
